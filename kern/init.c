@@ -21,7 +21,14 @@ i386_init(void)
 	// Can't call cprintf until after we do this!
 	cons_init();
 
-	cprintf("Hello POS!");
+	cprintf("Hello POS!\n");
+
+	cprintf("    ___    ___     ___   \n");
+	cprintf("   | _ \\  / _ \\   / __|  \n");
+	cprintf("   |  _/ | (_) |  \\__ \\  \n");
+	cprintf("  _|_|_   \\___/   |___/  \n");
+	cprintf("_| \"\"\" |_|\"\"\"\"\"|_|\"\"\"\"\"| \n");
+	cprintf("\"`-0-0-'\"`-0-0-'\"`-0-0-' \n");
 
 	// cprintf("6828 decimal is %o octal!\n", 6828);
 
