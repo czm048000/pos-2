@@ -4,7 +4,7 @@
 
 #include <inc/x86.h>
 
-#include <kern/tool/kclock.h>
+#include <kern/kclock.h>
 
 
 unsigned

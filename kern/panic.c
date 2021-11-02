@@ -1,15 +1,15 @@
 
-#include<kern/tool/panic.h>
+#include<kern/panic.h>
 
 
 #include <inc/stdio.h>
 #include <inc/string.h>
 #include <inc/assert.h>
 
-#include <kern/tool/monitor.h>
-#include <kern/tool/console.h>
+#include <kern/monitor.h>
+#include <kern/console.h>
 #include <kern/pmap.h>
-#include <kern/tool/kclock.h>
+#include <kern/kclock.h>
 
 
 /*

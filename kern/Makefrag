@@ -16,18 +16,18 @@ KERN_LDFLAGS := $(LDFLAGS) -T kern/kernel.ld -nostdlib
 KERN_SRCFILES :=	kern/entry.S \
 			kern/entrypgdir.c \
 			kern/init.c \
-			kern/tool/console.c \
-			kern/tool/monitor.c \
+			kern/console.c \
+			kern/monitor.c \
 			kern/pmap.c \
 			kern/env.c \
-			kern/tool/kclock.c \
+			kern/kclock.c \
 			kern/picirq.c \
-			kern/tool/printf.c \
+			kern/printf.c \
 			kern/trap.c \
 			kern/trapentry.S \
 			kern/sched.c \
 			kern/syscall.c \
-			kern/tool/kdebug.c \
+			kern/kdebug.c \
 			lib/printfmt.c \
 			lib/readline.c \
 			lib/string.c

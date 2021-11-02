@@ -6,7 +6,7 @@
 #include <inc/string.h>
 #include <inc/assert.h>
 
-#include <kern/tool/console.h>
+#include <kern/console.h>
 
 static void cons_intr(int (*proc)(void));
 static void cons_putc(int c);

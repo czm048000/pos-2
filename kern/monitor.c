@@ -7,9 +7,9 @@
 #include <inc/assert.h>
 #include <inc/x86.h>
 
-#include <kern/tool/console.h>
-#include <kern/tool/monitor.h>
-#include <kern/tool/kdebug.h>
+#include <kern/console.h>
+#include <kern/monitor.h>
+#include <kern/kdebug.h>
 
 #define CMDBUF_SIZE	80	// enough for one VGA text line
 
