@@ -1,9 +1,9 @@
 /obj
-/jos.in
-/jos.log
-/jos.out
-/jos.out.*
-/jos.cmd
+/pos.in
+/pos.log
+/pos.out
+/pos.out.*
+/pos.cmd
 /.gdbinit
 /wget.log
 /qemu.pcap
